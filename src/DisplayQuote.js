@@ -23,7 +23,7 @@ export default function DisplayQuote() {
   } else {
     return (
       <div class="container">
-        <blockquote>
+        <blockquote onClick={pickNextQuote}>
           {nextQuote ? nextQuote.quote : pickFromArray(quotes).quote}
         </blockquote>
         <cite>
