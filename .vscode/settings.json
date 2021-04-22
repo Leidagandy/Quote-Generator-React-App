@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/27a210b9-6b64-4ad0-b0a1-bee11391a24a/resourceGroups/QuoteGenerator/providers/Microsoft.Web/sites/motivationalquotes",
+  "appService.deploySubpath": "."
+}
